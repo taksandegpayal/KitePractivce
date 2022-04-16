@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [HP]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="HighPTC(failed)(failed)">
+    <classes>
+      <class name="com.Kite.TestClass.TC_05_BuyShareFunctionality">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="validateBuyFunctionality"/>
+        </methods>
+      </class> <!-- com.Kite.TestClass.TC_05_BuyShareFunctionality -->
+    </classes>
+  </test> <!-- HighPTC(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [HP]] -->

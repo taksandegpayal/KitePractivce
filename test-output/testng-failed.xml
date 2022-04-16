@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HP]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.Kite.TestClass.TC_01_LoginFunctionality">
+        <methods>
+          <include name="validateLoginFuncyionality"/>
+          <include name="validateTFAFunctionality"/>
+        </methods>
+      </class> <!-- com.Kite.TestClass.TC_01_LoginFunctionality -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [HP] -->
